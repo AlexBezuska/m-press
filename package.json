@@ -1,0 +1,24 @@
+{
+  "name": "mpress",
+  "version": "0.0.0",
+  "description": "Easily design press pages for your projects such as games or other works.  Generates static html - easy to host - nothing to install on a server.",
+  "main": "mPress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mPress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBezuska/m-press.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexBezuska/m-press/issues"
+  },
+  "homepage": "https://github.com/AlexBezuska/m-press#readme",
+  "dependencies": {
+    "handlebars": "^4.5.3",
+    "path": "^0.12.7"
+  }
+}

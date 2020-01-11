@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="{{meta.studioName}}">
+  <meta name="generator" content="mPress">
+  <meta property="og:site_name" content="{{meta.projectName}} by {{meta.studioName}} - {{platform.name}} Pitch Deck">
+  <meta name="twitter:site" content="{{meta.website}}">
+  <meta name="twitter:creator" content="{{meta.studioName}}">
+
+  <meta property="og:title" content="{{meta.projectName}} by {{meta.studioName}} - {{platform.name}} Pitch Deck">
+  <meta name="twitter:title" content="{{meta.projectName}} by {{meta.studioName}} - {{platform.name}} Pitch Deck">
+  <meta property="og:url" content="{{meta.url}}">
+  <meta name="description" content="{{meta.description}}">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta name="twitter:description" content="{{meta.description}}">
+  <meta property="og:image" content="{{meta.shareImage}}">
+  <meta name="twitter:image" content="{{meta.shareImage}}">
+  <meta property="og:type" content="article">
+  <title>{{meta.projectName}} by {{meta.studioName}} - {{platform.name}} Pitch Deck</title>
+  <meta description="{{meta.description}}" />
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,800,900&display=swap" rel="stylesheet">
+
+  <style>
+  body {
+    padding: 15px 0;
+
+    font-size: 0.9em;
+    line-height:1.6em;
+    font-family: 'Roboto Slab', serif !important;
+  }
+
+  h1{
+    margin-top: 50px !important;
+    font-size: 1.8rem !important;
+  }
+
+  h1, h2, h3, strong{
+    font-weight: 800 !important;
+  }
+
+  strong{
+    margin-bottom: 0 !important;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  .image-square img {
+    max-height: 150px;
+  }
+
+  h2 {
+    margin-top: 35px !important;
+  }
+
+  .laurel {
+    max-width: 340px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-fleplatform;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row no-wrap;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    padding: 7px;
+    margin: 15px auto 0 auto;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    max-height: 300px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .laurel .textwidget {
+    padding: 0 5px;
+    flex-grow: 5;
+    width: 80%;
+    font-size: 18px;
+  }
+  .laurel .laurel-left, .laurel .laurel-right {
+    width: 10%;
+    flex-grow: 3;
+    flex: 1 auto;
+    vertical-align: middle;
+  }
+  .laurel .laurel-left svg, .laurel .laurel-right svg {
+    position: relative;
+    max-height: 120px;
+  }
+  .laurel .laurel-left svg path, .laurel .laurel-right svg path {
+    fill: black;
+  }
+  .laurel .laurel-left {
+    justify-content: right;
+  }
+  .laurel .laurel-left svg {
+    float: right;
+  }
+  .laurel .laurel-right {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+  .image-container{
+    margin-top: 15px;
+
+  }
+
+  .image-container .caption{
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .main{
+    padding-left: 15px;
+  }
+
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <p>{{meta.projectName}} by {{meta.studioName}} - {{platform.name}} Pitch Deck (will be exported as PDF to send to platform holder)</p>
+        <img src="{{meta.headerImage}}">
+        <h1>{{meta.projectName}}</h1>
+        <p>From {{meta.studioName}}</p>
+
+        {{#if meta.oneLiner}}
+        <h1>{{meta.oneLinerHeading}}</h1>
+        <p>{{{meta.oneLiner}}}</p>
+        {{/if}}
+
+
+        {{#if meta.pitch}}
+        <h1>{{meta.pitchHeading}}</h1>
+        <p>{{{meta.pitch}}}</p>
+        {{/if}}
+
+
+        {{#if platform.history}}
+        <h1>{{platform.historyHeading}}</h1>
+        <p>{{{platform.history}}}</p>
+        {{/if}}
+
+
+        {{#if images}}
+        <div class="images row">
+          {{#each images}}
+          {{#if best}}
+          <div class="col-sm-12 col-md-6 image-container">
+            <a href="{{url}}" target="_blank"><img src="{{image}}" alt="{{caption}}" /></a>
+            {{#if caption}}<p class="caption">{{caption}}</p>{{/if}}
+          </div>
+          {{/if}}
+          {{/each}}
+        </div>
+        {{/if}}
+
+
+        {{#if meta.pressURL}}
+          <h1>Screenshots & Video</h1>
+          <p>
+            <strong>Screenshots & GIFs</strong><br/>
+            <a href="{{meta.pressURL}}" target="_blank">{{meta.pressURL}}</a>
+          </p>
+        {{/if}}
+
+
+        {{#if videos}}
+          <p>
+            <strong>Gameplay Footage</strong><br/>
+            {{#each videos}}
+            {{#if gameplay}}
+            <a href="https://youtu.be/{{youtubeID}}" target="_blank">https://youtu.be/{{youtubeID}}</a>
+            {{/if}}
+            {{/each}}
+          </p>
+        {{/if}}
+
+
+        {{#if meta.websiteURL}}
+          <p>
+            <strong>Website</strong><br/>
+            <a href="{{meta.websiteURL}}" target="_blank">{{meta.websiteURL}}</a>
+          </p>
+        {{/if}}
+
+
+        {{#if platform.features}}
+        <h1 id="features">Features</h1>
+        <ul>{{#each platform.features}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
+
+
+
+        {{#if platform.specifics}}
+          <h1>Perfect for {{platform.name}}</h1>
+          {{#each platform.specifics}}
+            <strong>{{heading}}</strong>
+            <p>{{body}}</p>
+          {{/each}}
+        {{/if}}
+
+
+        <h1>{{meta.projectName}} Development Progress</h1>
+        <ul>
+          {{#if meta.projectCompletion}}
+            {{#each meta.projectCompletion}}
+              <li>{{this}}</li>
+            {{/each}}
+          {{/if}}
+            {{#if meta.gameplayTime}}<li><strong>Gameplay Time:</strong> {{meta.gameplayTime}}</li>{{/if}}
+            {{#if platform.releaseDate}}<li><strong>Target Release:</strong> {{platform.releaseDate}}</li>{{/if}}
+            {{#if platform.pricePoint}}<li><strong>Price Point:</strong> {{platform.pricePoint}}</li>{{/if}}
+          </ul>
+
+          {{#if platform.needs}}
+          <h1>What {{meta.projectName}} Needs</h1>
+          <p> {{platform.needs}}</p>
+          {{/if}}
+
+          {{#if meta.studioDescription}}
+          <h1>About {{meta.studioName}}</h1>
+          <p>{{meta.studioDescription}}</p>
+          {{/if}}
+
+
+        </div><!-- end col-sm-12 -->
+      </div><!-- end row -->
+
+
+    </div><!-- end container -->
+
+
+
+
+  </body>
+  </html>
