@@ -1,0 +1,29 @@
+{
+  "name": "Xbox One",
+  "releaseDate": "August 2020",
+  "pricePoint": "$59.99",
+  "historyHeading": "History",
+  "history": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus. Mauris luctus enim nunc, quis suscipit diam semper et. Nam faucibus, tortor a varius aliquam, nunc massa ornare tortor, eu aliquam lacus nisi quis dolor. Pellentesque accumsan gravida magna ac convallis. Phasellus pretium odio in ultrices pulvinar. Nam id pretium ipsum. Donec sodales blandit dui ac aliquet. Curabitur volutpat quam dolor, ut mollis massa aliquet luctus.",
+  "features": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus."
+  ],
+  "specifics": [
+    {
+      "heading": "Lorem ipsum",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus."
+    },
+    {
+      "heading": "Lorem ipsum",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus."
+    },
+    {
+      "heading": "Lorem ipsum",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus."
+    }
+  ],
+  "needs": "Access to a Xbox One dev kit."
+}

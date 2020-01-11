@@ -1,0 +1,250 @@
+{
+	"meta": {
+		"projectName": "Game Name",
+		"projectType": "Game",
+		"keyArt": "https://via.placeholder.com/600x350",
+		"headerImage": "https://via.placeholder.com/1920X1080",
+		"studioName": "Studio Name",
+		"studioDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus. Mauris luctus enim nunc, quis suscipit diam semper et. Nam faucibus, tortor a varius aliquam, nunc massa ornare tortor, eu aliquam lacus nisi quis dolor. Pellentesque accumsan gravida magna ac convallis. Phasellus pretium odio in ultrices pulvinar. Nam id pretium ipsum. Donec sodales blandit dui ac aliquet. Curabitur volutpat quam dolor, ut mollis massa aliquet luctus.",
+		"googleAnalyticsID": "UA-48152351-X",
+		"address": {
+			"line1": "123 fake st",
+			"line2": "Suite 00",
+			"city": "Cityname",
+			"state": "Statename",
+			"zip": "000000",
+			"country": "Countryname",
+			"pressContact": "info@studioname.com",
+			"phone": "+1 (555) 555 5555"
+		},
+		"dateStarted": "January 1, 2020",
+		"pressEmbargoDate": "January 1, 2021",
+		"releaseDate": [{
+				"platform": "Steam (Windows, Mac, Linux)",
+				"date": "Feb 8, 2021",
+				"show": true
+			},
+			{
+				"platform": "Nintendo Switch",
+				"date": "Feb 8, 2021",
+				"show": true
+			},
+			{
+				"platform": "Playstation 4",
+				"date": "Feb 8, 2021",
+				"show": true
+			},
+			{
+				"platform": "Xbox One",
+				"date": "Feb 8, 2021",
+				"show": true
+			},
+			{
+				"platform": "Nokia nGage",
+				"date": "TBD",
+				"show": false
+			},
+			{
+				"platform": "Consoles",
+				"date": "TBD",
+				"show": false
+			}
+		],
+		"pricePoint": "$59.99",
+		"genre": "Game Gernre",
+		"languages": [
+			"English",
+			"Localizations TBD"
+		],
+		"quickFacts": [
+			"Lorem ipsum dolor sit amet",
+			"consectetur adipiscing elit",
+			"Duis suscipit dolor vel mauris",
+			"malesuada cursus"
+		],
+		"gameplayTime": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit dolor vel mauris malesuada cursus. Mauris luctus enim nunc, quis suscipit diam semper et. Nam faucibus, tortor a varius aliquam",
+		"projectCompletion": [
+			" Mauris luctus enim nunc. ",
+			"Duis suscipit dolor vel mauris malesuada cursus. "
+		],
+		"websiteURL": "http://gamewebsite.com",
+		"pressURL": "http://gamewebsite.com/press.html",
+		"oneLinerHeading": "",
+		"oneLiner": "In viverra, neque vel sagittis convallis, mi eros ultricies libero, eget ultricies lacus enim ac nisi. Aliquam tempus porta diam nec posuere. Quisque ullamcorper ipsum eu magna molestie suscipit.",
+		"pitchHeading": "",
+		"pitch": "Cras ultrices nunc in velit rhoncus dictum. Phasellus porttitor iaculis orci, ac elementum ex venenatis sit amet. Mauris vitae mattis ex. In id varius tortor, a sagittis tortor. Donec luctus augue vel urna efficitur, et posuere erat pretium. Cras hendrerit ipsum diam, id tempor ipsum iaculis nec. Praesent sed urna neque. Cras consequat, tortor nec dignissim tristique, urna est aliquam velit, eu aliquam metus nisl a ligula. Etiam scelerisque, massa vel efficitur interdum, quam orci sodales urna, vitae egestas nulla metus et dolor. Duis semper ac elit in sodales. Sed malesuada dolor non magna volutpat hendrerit.",
+		"features": [
+			"Nullam venenatis pretium justo, vitae vehicula arcu faucibus et.",
+			"Phasellus faucibus tincidunt velit, ac scelerisque metus.",
+			"Quisque vulputate elementum malesuada. Aliquam erat volutpat.",
+			"Duis sodales porttitor est ac pellentesque. Nunc ac semper dolor.",
+			"Vivamus porttitor pellentesque nunc non mattis. Nulla convallis suscipit ante",
+			"Quis sodales lacus aliquet at. Sed consectetur efficitur erat nec sagittis.",
+			"In hac habitasse platea dictumst. Proin dignissim tincidunt condimentum."
+		],
+		"pressContact": {
+			"name": "Person Name",
+			"email": "info@gamestudio.com"
+		}
+	},
+	"social": [{
+			"url": "https://twitter.com/gamestudio",
+			"name": "Twitter"
+		},
+		{
+			"url": "http://patreon.com/gamestudio",
+			"name": "Patreon"
+		},
+		{
+			"url": "http://gamestudio.itch.io",
+			"name": "Itch.io"
+		},
+		{
+			"url": "https://youtube.com/user/gamestudio",
+			"name": "YouTube"
+		},
+		{
+			"url": "https://facebook.com/gamestudio",
+			"name": "Facebook"
+		},
+		{
+			"url": "https://instagram.com/gamestudio",
+			"name": "Instagram"
+		}
+	],
+	"videos": [{
+		"name": "Giant Enemy Crab",
+		"youtubeID": "hqFJJyAVx-Q",
+		"gameplay": true
+	}],
+	"logos": [],
+	"gifs": [{
+			"gif": "https://via.placeholder.com/1920X1080"
+		},
+		{
+			"gif": "https://via.placeholder.com/1920X1080"
+		},
+		{
+			"gif": "https://via.placeholder.com/1920X1080"
+		},
+		{
+			"gif": "https://via.placeholder.com/1920X1080"
+		},
+		{
+			"gif": "https://via.placeholder.com/1920X1080"
+		},
+		{
+			"gif": "https://via.placeholder.com/1920X1080"
+		}
+	],
+	"images": [{
+			"url": "https://via.placeholder.com/1920X1080",
+			"image": "https://via.placeholder.com/1920X1080",
+			"caption": "Phasellus faucibus tincidunt velit, ac scelerisque metus."
+		},
+		{
+			"url": "https://via.placeholder.com/1920X1080",
+			"image": "https://via.placeholder.com/1920X1080",
+			"caption": "Phasellus faucibus tincidunt velit, ac scelerisque metus."
+		},
+		{
+			"url": "https://via.placeholder.com/1920X1080",
+			"image": "https://via.placeholder.com/1920X1080",
+			"caption": "Phasellus faucibus tincidunt velit, ac scelerisque metus."
+		},
+		{
+			"url": "https://via.placeholder.com/1920X1080",
+			"image": "https://via.placeholder.com/1920X1080",
+			"caption": "Phasellus faucibus tincidunt velit, ac scelerisque metus."
+		},
+		{
+			"url": "https://via.placeholder.com/1920X1080",
+			"image": "https://via.placeholder.com/1920X1080",
+			"caption": "Phasellus faucibus tincidunt velit, ac scelerisque metus.",
+			"best": true
+		},
+		{
+			"url": "https://via.placeholder.com/1920X1080",
+			"image": "https://via.placeholder.com/1920X1080",
+			"caption": "Phasellus faucibus tincidunt velit, ac scelerisque metus.",
+			"best": true
+		}
+	],
+	"awardsAndRecognition": [{
+			"award": "Shiny Award",
+			"from": "Person of Authority 2020",
+			"date": "September, 2020"
+		},
+		{
+			"award": "Large Trophy",
+			"from": "Found it 2021",
+			"date": "September, 2021"
+		}
+	],
+	"mediaCoverage": [{
+			"title": "In viverra, neque vel sagittis convallis",
+			"url": "http://google.com",
+			"author": "In viverra Podcast",
+			"date": "January 10, 2020"
+		},
+		{
+			"title": "In viverra, neque vel sagittis convallis",
+			"url": "http://google.com",
+			"author": "In viverra Podcast",
+			"date": "January 10, 2020"
+		},
+		{
+			"title": "In viverra, neque vel sagittis convallis",
+			"url": "http://google.com",
+			"author": "In viverra Podcast",
+			"date": "January 10, 2020"
+		}
+
+	],
+	"events": [{
+			"url": "http://google.com",
+			"title": "Turtlefest 2020",
+			"location": "Bermuda Triangle",
+			"date": "January, 2020"
+
+		}, {
+			"url": "http://google.com",
+			"title": "Heartfelt Sympathy Con",
+			"curated": true,
+			"location": "Malfeasance, IL",
+			"date": "May, 2020"
+
+		}
+
+	],
+	"additionalLinks": [{
+			"title": "Nunc ex varius nulla",
+			"url": "http://google.com"
+		},
+		{
+			"title": "Quisque ullamcorper ipsum eu magna",
+			"url": "http://google.com"
+		}
+	],
+	"team": [{
+			"name": "Person Name",
+			"role": "Chaotician",
+			"company": "Studio Name"
+		},
+		{
+			"name": "Person Name",
+			"role": "Statement maker",
+			"company": "Studio Name"
+		},
+		{
+			"name": "Person Name",
+			"role": "Intern",
+			"company": "Studio Name"
+		}
+	],
+	"contact": [{
+		"name": "Inquiries",
+		"url": "mailto:info@studioname.com",
+		"linkText": "info@studioname.com"
+	}]
+}

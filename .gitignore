@@ -107,5 +107,6 @@ dist
 node_modules
 *.DS_Store
 upload.sh
-data/*
-output/*
+
+output/*.html
+kickbot-data/*

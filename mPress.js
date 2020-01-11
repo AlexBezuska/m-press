@@ -1,22 +1,25 @@
 var fs = require("fs");
 var path = require("path");
 var handlebars = require("handlebars");
+var config = require("./config.json");
+var dataPath = config.dataPath;
+var outputPath = config.outputPath;
 
-var mPressData = require("./data/mPress.json");
+var mPressData = require("./" + config.dataPath + "/mPress.json");
 var mPressTemplate = "./templates/press.hbs";
-createmPress(mPressData, mPressTemplate,"output/press.html");
+createmPress(mPressData, mPressTemplate,"./" + config.outputPath + "/press.html");
 
-mPressData.platform  = require("./data/switch.json");
+mPressData.platform  = require("./" + config.dataPath + "/switch.json");
 var platformPitchDeck = "./templates/platform-pitch-deck.hbs";
-createmPress(mPressData, platformPitchDeck, "output/switch-pitch-deck.html");
+createmPress(mPressData, platformPitchDeck, "./" + config.outputPath + "/switch-pitch-deck.html");
 
-mPressData.platform  = require("./data/xbox.json");
+mPressData.platform  = require("./" + config.dataPath + "/xbox.json");
 var pitchDeckXbox = "./templates/xbox-pitch-deck.hbs";
-createmPress(mPressData, platformPitchDeck, "output/xbox-pitch-deck.html");
+createmPress(mPressData, platformPitchDeck, "./" + config.outputPath + "/xbox-pitch-deck.html");
 
-mPressData.platform  = require("./data/ps4.json");
+mPressData.platform  = require("./" + config.dataPath + "/ps4.json");
 var pitchDeckPs4 = "./templates/ps4-pitch-deck.hbs";
-createmPress(mPressData, platformPitchDeck, "output/ps4-pitch-deck.html");
+createmPress(mPressData, platformPitchDeck, "./" + config.outputPath + "/ps4-pitch-deck.html");
 
 function createmPress(data, template, destination) {
   fs.writeFileSync(destination, renderFromExternalTemplate(template, data));
