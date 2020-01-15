@@ -11,7 +11,7 @@ Generates static html - easy to host - nothing to install on a server.
 
 - Clone this repo `git clone git@github.com:AlexBezuska/m-press.git mPress`.
 - Make a copy of the data folder and name it something like "my-cool-project".
-- Edit 'config.js' and make the 'dataPath' the data folder you made for your project.
-- Edit the 'mPress.json' file with the information for your project.
-- Run 'npm start' in the terminal to build the output html files, they will appear in the 'output' folder.
-- Upload the 'press.html' file to your server or host of choice!
+- Edit `config.js` and make the `dataPath` the data folder you made for your project.
+- Edit the `Press.json`file with the information for your project.
+- Run `npm start` in the terminal to build the output html files, they will appear in the 'output' folder.
+- Upload the `press.html` file to your server or host of choice!
