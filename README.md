@@ -10,6 +10,7 @@ Generates static html - easy to host - nothing to install on a server.
 ## Usage
 
 - Clone this repo `git clone git@github.com:AlexBezuska/m-press.git mPress`.
+- Run `npm install` in the terminal to install m-press' dependencies.
 - Make a copy of the data folder and name it something like "my-cool-project".
 - Edit `config.js` and make the `dataPath` the data folder you made for your project.
 - Edit the `Press.json`file with the information for your project.
