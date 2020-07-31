@@ -18,3 +18,19 @@ Generates static html - easy to host - nothing to install on a server.
 - Edit the `Press.json`file with the information for your project.
 - Run `npm start` in the terminal to build the output html files, they will appear in the 'output' folder.
 - Upload the `press.html` file to your server or host of choice!
+
+
+
+
+
+Playstation reqs
+
+
+- Working title
+- Target platform(s)
+- Appeal: Gameplay experience and genre
+- Positioning: When and where the game will release
+- Audience: Intended player segments/demographics
+- Scope: Key features of design, mechanics and engagement
+- Theme: Proposed look and feel
+- Supporting visuals: Screenshots, visuals or concept art
